@@ -1,0 +1,14 @@
+dataset: cub200
+epoch: 200
+schedule: Milestone
+init_lr: 0.005
+lr: 0.005
+base_class: 100
+num_classes: 200
+n_way: 10
+n_shot: 5
+n_sessions: 11
+head_type: cosine
+pretrained: True
+encoder: resnet18_cub
+image_size: 224

@@ -1,0 +1,14 @@
+dataset: mini_imagenet
+epoch: 200
+schedule: Cosine
+base_class: 60
+num_classes: 100
+init_lr: 0.1
+lr: 0.1
+n_way: 5
+n_shot: 5
+n_sessions: 9
+head_type: cosine
+pretrained: False
+encoder: resnet18
+image_size: 84 

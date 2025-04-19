@@ -1,0 +1,18 @@
+dataset: cifar100
+epoch: 100
+schedule: Cosine
+init_lr: 0.1
+lr: 0.1
+milestones: [50, 70]
+base_class: 60
+num_classes: 100
+n_way: 5
+n_shot: 5
+n_sessions: 9
+head_type: cosine
+pretrained: False
+encoder: resnet20
+image_size: 32
+
+global_crop_size: 32
+local_crop_size: 18

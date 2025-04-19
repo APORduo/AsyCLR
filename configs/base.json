@@ -1,0 +1,23 @@
+{   
+    "trainer":"Base",
+    "dataroot": "/data/",
+    "dataset": "mini_imagenet",
+    "encoder": "resnet18",
+
+    "norm_first": true,
+    "exp_dir": "log",
+    "epoch": 200,
+    "batch_size": 128,
+    "batch_size_test": 100,
+    "init_lr": -1.0,
+    "num_workers": 12,
+    "report_binary": false,
+    "seed": -1,
+    "save_last": true,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "device": "cuda:0",
+    "log": true
+
+
+}
